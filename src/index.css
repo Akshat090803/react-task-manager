@@ -294,9 +294,9 @@ label{
 
   label{
     text-align: center;
-    width: 50%;
-    /* padding-left: 1rem;
-    padding-right: 1rem; */
+    /* width: 50%; */
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-size: 1.3rem;
     font-weight: bold;
   }
