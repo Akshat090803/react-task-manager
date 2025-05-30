@@ -26,6 +26,30 @@ A sleek and functional To-Do List application built with **React and Vite**, off
 * **Aesthetic UI/UX:** A visually appealing and user-friendly interface.
 * **Mobile Responsiveness:** Optimized for seamless usage across various screen sizes, from desktops to mobile devices.
 
+## 📸 Screenshots
+
+Here are some visual examples of the application in action:
+
+### Empty State
+[![Empty State](empty.png)](empty.png)
+
+### Home Page with Tasks
+[![Home Page](home.png)](home.png)
+
+### Adding a New Task
+[![Adding Task](Add.png)](Add.png)
+
+### Filtering Results
+[![Filter Results](filter.png)](filter.png)
+
+### Sorting Options Menu
+[![Sorting Options](sortMenu.png)](sortMenu.png)
+
+### Mobile Responsiveness
+[![Mobile View 1](resp-1.png)](resp-1.png)
+[![Mobile View 2](resp-2.png)](resp-2.png)
+
+
 ## 🚀 Technologies Used
 
 * **React.js:** A JavaScript library for building user interfaces.
