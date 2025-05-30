@@ -46,6 +46,7 @@ function TaskList({ tasks, setTasks, newTaskBool, setNewTaskBool }) {
         break;
       default:
         setTasksCopy([...tasks]);
+        setFiltertype("")
         break;
     }
   };
@@ -62,7 +63,7 @@ function TaskList({ tasks, setTasks, newTaskBool, setNewTaskBool }) {
     let sortedTasks = [...tasksCopy]; // Always sort the currently displayed tasks (tasksCopy)
 
     switch (order) {
-      case "Oldest First (Created Date)":
+      case "Oldest First (Created Date)-(Default)":
         sortedTasks.sort((a, b) => a.id - b.id); // Ascending Order based on creation
         break;
       case "Newest First (Created Date)":
@@ -240,6 +241,15 @@ function TaskList({ tasks, setTasks, newTaskBool, setNewTaskBool }) {
         >
           Due Today
         </li>
+          <li
+          onClick={() => {
+            handleFilter("remove");
+            setFilterMode(false);
+          }}
+          style={{fontWeight:"bold"}}
+        >
+          Remove Filter
+        </li>
       </ul>
 
       {/*----------------------------------------- Menu for Sort options-------------------------------------- */}
@@ -260,11 +270,11 @@ function TaskList({ tasks, setTasks, newTaskBool, setNewTaskBool }) {
         </button>
         <li
           onClick={() => {
-            handleSort("Oldest First (Created Date)");
+            handleSort("Oldest First (Created Date)-(Default)");
             setSortMode(false);
           }}
         >
-          Oldest First (Created Date)
+          Oldest First (Created Date)-(Default)
         </li>
         <li
           onClick={() => {
@@ -289,6 +299,16 @@ function TaskList({ tasks, setTasks, newTaskBool, setNewTaskBool }) {
           }}
         >
           Latest Due (Due Date)
+        </li>
+        <li
+          onClick={() => {
+            handleSort("");
+            setSortMode(false);
+          }}
+
+          style={{fontWeight:"bold"}}
+        >
+          Remove Sorting
         </li>
       </ul>
 
