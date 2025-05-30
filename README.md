@@ -26,6 +26,29 @@ A sleek and functional To-Do List application built with **React and Vite**, off
 * **Aesthetic UI/UX:** A visually appealing and user-friendly interface.
 * **Mobile Responsiveness:** Optimized for seamless usage across various screen sizes, from desktops to mobile devices.
 
+## 📸 Screenshots
+
+Here are some visual examples of the application in action:
+
+### Empty State
+![Empty State](public/empty.png)
+
+### Home Page with Tasks
+![Home Page](public/home.png)
+
+### Adding a New Task
+![Adding Task](public/Add.png)
+
+### Filtering Results
+![Filter Results](public/filter.png)
+
+### Sorting Options Menu
+![Sorting Options](public/sortMenu.png)
+
+### Mobile Responsiveness
+![Mobile View 1](public/resp-1.png)
+![Mobile View 2](public/resp-2.png)
+
 ## 🚀 Technologies Used
 
 * **React.js:** A JavaScript library for building user interfaces.
@@ -41,7 +64,7 @@ To get this project up and running on your local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Akshat090803/react-task-manager.git](https://github.com/Akshat090803/react-task-manager.git)
+    https://github.com/Akshat090803/react-task-manager.git
     cd react-task-manager
     ```
 
