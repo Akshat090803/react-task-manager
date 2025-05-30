@@ -31,23 +31,23 @@ A sleek and functional To-Do List application built with **React and Vite**, off
 Here are some visual examples of the application in action:
 
 ### Empty State
-![Empty State](empty.png)
+![Empty State](public/empty.png)
 
 ### Home Page with Tasks
-![Home Page](home.png)
+![Home Page](public/home.png)
 
 ### Adding a New Task
-![Adding Task](Add.png)
+![Adding Task](public/Add.png)
 
 ### Filtering Results
-![Filter Results](filter.png)
+![Filter Results](public/filter.png)
 
 ### Sorting Options Menu
-![Sorting Options](sortMenu.png)
+![Sorting Options](public/sortMenu.png)
 
 ### Mobile Responsiveness
-![Mobile View 1](resp-1.png)
-![Mobile View 2](resp-2.png)
+![Mobile View 1](public/resp-1.png)
+![Mobile View 2](public/resp-2.png)
 
 ## 🚀 Technologies Used
 
